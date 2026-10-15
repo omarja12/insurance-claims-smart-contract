@@ -1,0 +1,9 @@
+[profile.default]
+src = "src"
+test = "test"
+out = "out"
+solc_version = "0.8.24"
+optimizer = true
+
+[fuzz]
+runs = 1000
